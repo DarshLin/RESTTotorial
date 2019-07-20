@@ -17,7 +17,7 @@ public class HelloWorld {
     @Qualifier("FancyWrite")
     TextWriter fan;
 
-    @RequestMapping("/")
+//    @RequestMapping("/")
     public String index() {
         return fan.WriteText("hi! Darsh");
     }
